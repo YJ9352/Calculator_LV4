@@ -1,4 +1,4 @@
-package com.example.myapplication.calculator;
+package com.example.myapplication2.Calculator_LV4
 
 fun main(args: Array<String>) {
 
@@ -20,5 +20,7 @@ fun main(args: Array<String>) {
     }
 
     val calc = Calculator(AbstractOperation)
-    println("정답은 ${calc.operate(1,2)}입니다.")
+    val result = calc.operate(num1, num2)
+
+    println("정답은 ${result}입니다.")
 }
